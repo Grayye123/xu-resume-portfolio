@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="徐光锐 — AIGC设计师 · 智能医学工程 · 个人简历与作品集">
+    <title>Guangrui Xu — Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">
+        <span class="theme-icon-dark">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </span>
+        <span class="theme-icon-light">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">GX.</a>
+            <div class="nav-links">
+                <a href="#education">Education</a>
+                <a href="#publications">Publications</a>
+                <a href="#experience">Experience</a>
+                <a href="#research">Research</a>
+                <a href="#skills">Skills</a>
+                <a href="#materials">Materials</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero section-fade" id="hero">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <p class="hero-overline">PORTFOLIO / 2026</p>
+                <h1 class="hero-name">徐光锐<span class="hero-accent">.</span></h1>
+                <h2 class="hero-role">AIGC Designer &amp;<br>Medical AI Researcher</h2>
+                <p class="hero-bio">
+                    智能医学工程在读，专注于人工智能与医学影像的交叉领域。
+                    致力于用可解释AI和深度学习技术解决医疗难题。
+                </p>
+                <div class="hero-info">
+                    <div class="hero-info-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        山东大学 · 控制科学与工程学院
+                    </div>
+                    <div class="hero-info-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        智能医学工程 · 工学学士（预期 2027）
+                    </div>
+                    <div class="hero-info-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        202300172014@mail.sdu.edu.cn
+                    </div>
+                </div>
+                <div class="hero-tags">
+                    <span class="htag">IELTS 7.0</span>
+                    <span class="htag">CET-6 532</span>
+                    <span class="htag htag-fill">NUS 3+1+1 录取</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-photo-ring">
+                    <div class="hero-photo-wrap">
+                        <img src="assets/photo.jpg" alt="徐光锐" class="hero-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section-fade" id="education">
+        <div class="section-label">Education</div>
+        <h2 class="section-heading">教育背景</h2>
+
+        <div class="card edu-card">
+            <div class="card-top">
+                <h3 class="card-heading">山东大学</h3>
+                <div class="card-badges">
+                    <span class="stag">2023.09 – 2027.06</span>
+                    <span class="stag stag-outline">济南</span>
+                </div>
+            </div>
+            <p class="card-sub">智能医学工程 · 工学学士</p>
+
+            <div class="edu-stat">
+                <span class="edu-gpa">80.38<span class="edu-gpa-unit">/100</span></span>
+                <span class="edu-gpa-label">GPA</span>
+            </div>
+
+            <div class="course-section">
+                <h4 class="mini-title">核心课程</h4>
+                <div class="tag-cloud">
+                    <span class="stag">机器学习</span>
+                    <span class="stag">数字图像处理</span>
+                    <span class="stag">智能医学图像处理</span>
+                    <span class="stag">医学电子学</span>
+                    <span class="stag">人体工程学</span>
+                    <span class="stag">信号分析</span>
+                    <span class="stag">数据结构</span>
+                    <span class="stag">Python编程</span>
+                    <span class="stag">MATLAB</span>
+                    <span class="stag">智能机器人导论</span>
+                </div>
+            </div>
+
+            <div class="callout">
+                <span class="callout-icon">✦</span>
+                已获 <strong>新加坡国立大学 3+1+1 项目</strong> 录取（BME · 2026.07 赴新）
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="section section-fade" id="publications">
+        <div class="section-label">Publications</div>
+        <h2 class="section-heading">出版物</h2>
+
+        <div class="card pub-card">
+            <div class="pub-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <div class="pub-body">
+                <h3 class="pub-title">Explainable Biomarker Discovery in Hepatocellular Carcinoma: an XGBoost and SHAP Framework</h3>
+                <p class="pub-authors"><strong>Guangrui Xu</strong>, Xiaoyu Shen</p>
+                <div class="pub-tags">
+                    <span class="stag stag-fill">ICIAAI 2026</span>
+                    <span class="stag">第四届图像、算法与人工智能国际会议</span>
+                    <span class="stag stag-outline">已接收 · 待出版</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section-fade" id="experience">
+        <div class="section-label">Experience</div>
+        <h2 class="section-heading">实习经历</h2>
+
+        <div class="card timeline-card">
+            <div class="tl-track"></div>
+            <div class="tl-dot"></div>
+            <div class="card-top">
+                <div>
+                    <h3 class="card-heading">吉利中央研究院</h3>
+                    <p class="card-sub">研发实习生 · 声学实验室</p>
+                </div>
+                <div class="card-badges">
+                    <span class="stag">2026.01 – 2026.03</span>
+                    <span class="stag stag-outline">上海</span>
+                </div>
+            </div>
+            <ul class="bullet-list">
+                <li>构建大规模音频训练语料（<strong>100k+秒</strong>），实现Python预处理流水线（切片、标注、数据增强），标准化整理11个数据集，支撑回声消除与降噪项目。</li>
+                <li>适配并训练 <strong>SCNet 深度学习模型</strong>（实时/离线）用于男女声分离，解决数据对齐与元数据加载问题。</li>
+                <li>建立数据集验证工作流（Python + Git + TOS云存储 + Conda），修复标注不一致，提升模型可靠性。</li>
+            </ul>
+        </div>
+
+        <div class="card timeline-card">
+            <div class="tl-track"></div>
+            <div class="tl-dot"></div>
+            <div class="card-top">
+                <div>
+                    <h3 class="card-heading">欧仕达听力科技（厦门）</h3>
+                    <p class="card-sub">研发实习生</p>
+                </div>
+                <div class="card-badges">
+                    <span class="stag">2025.07 – 2025.08</span>
+                    <span class="stag stag-outline">厦门</span>
+                </div>
+            </div>
+            <ul class="bullet-list">
+                <li>参与基于深度学习的<strong>助听器语音增强算法</strong>研发，针对低信噪比场景优化。</li>
+                <li>研究 ICASSP 2023 DNS 挑战赛方案，探索激活函数替换与梯度稳定性改进。</li>
+                <li>进行算法调试与性能分析，提出损失函数修改建议，有效提升降噪性能。</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section section-fade" id="research">
+        <div class="section-label">Research</div>
+        <h2 class="section-heading">研究项目</h2>
+
+        <div class="card timeline-card">
+            <div class="tl-track"></div>
+            <div class="tl-dot tl-dot-fill"></div>
+            <div class="card-top">
+                <div>
+                    <h3 class="card-heading">基于XGBoost与SHAP的肝细胞癌可解释生物标志物发现</h3>
+                    <p class="card-sub">远程研究助理 · 香港大学 张清鹏博士指导</p>
+                </div>
+                <div class="card-badges">
+                    <span class="stag">2025.09 – 2026.03</span>
+                </div>
+            </div>
+            <ul class="bullet-list">
+                <li>清洗并分析 Kaggle HCC 临床数据集（缺失值插补、异常检测、特征编码）。</li>
+                <li>搭建特征工程管线（One-hot 编码、Z-score 归一化），80/20 划分训练测试集。</li>
+                <li>优化 XGBoost 分类模型（网格/随机搜索 + 5–10折交叉验证），调节超参数（学习率、树深、正则项）。</li>
+                <li>评估指标：Accuracy, Precision, Recall, F1, AUC-ROC；利用 SHAP TreeExplainer 生成全局/个体解释，识别潜在生物标志物。</li>
+            </ul>
+        </div>
+
+        <div class="card timeline-card">
+            <div class="tl-track"></div>
+            <div class="tl-dot tl-dot-fill"></div>
+            <div class="card-top">
+                <div>
+                    <h3 class="card-heading">基于SAM的非小细胞肺癌肿瘤分割</h3>
+                    <p class="card-sub">学生研究员 · 山东大学 乔旭博士指导</p>
+                </div>
+                <div class="card-badges">
+                    <span class="stag">2025.03 – 至今</span>
+                </div>
+            </div>
+            <ul class="bullet-list">
+                <li>提出 <strong>Detegementation 框架</strong>，融合检测网络与 Segment Anything Model（SAM）生成边界框提示，用于 NSCLC CT 图像分割。</li>
+                <li>通过改进提示定位解决小肿瘤区域分割挑战，降低对临床医生手动标注的依赖。</li>
+                <li>融入肺叶分割先验，通过布尔运算约束 SAM 预测；设计多模态提示融合策略，将 PET SUVmax 热图转换为注意力权重，提升对代谢活跃区域的敏感性。</li>
+            </ul>
+        </div>
+
+        <div class="card timeline-card">
+            <div class="tl-track"></div>
+            <div class="tl-dot"></div>
+            <div class="card-top">
+                <div>
+                    <h3 class="card-heading">水声通信实验（4FSK 系统）</h3>
+                    <p class="card-sub">团队成员 · 厦门大学信息学院暑期科研</p>
+                </div>
+                <div class="card-badges">
+                    <span class="stag">2025.07</span>
+                </div>
+            </div>
+            <ul class="bullet-list">
+                <li>设计并实现 4FSK 水声通信系统（4个载频 23–29kHz，LFM 同步头），完成误码率分析（BER ≈ 0.05）。</li>
+                <li>识别性能影响因素（滤波器群延迟、水槽多径效应、环境噪声），计算数据率 ~20 bps，评估信道容量利用率（~0.05%）并提出优化方向。</li>
+                <li>分析滤波器输出，发现过渡带干扰并提出滤波器参数优化策略。</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-fade" id="skills">
+        <div class="section-label">Skills</div>
+        <h2 class="section-heading">专业技能</h2>
+
+        <div class="skills-grid">
+            <div class="card skill-card">
+                <div class="skill-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h4 class="skill-name">编程与工具</h4>
+                <div class="tag-cloud">
+                    <span class="stag">Python</span><span class="stag">NumPy</span><span class="stag">Pandas</span><span class="stag">C++</span><span class="stag">MATLAB</span><span class="stag">VSCode</span><span class="stag">Jupyter</span><span class="stag">Git</span><span class="stag">TOS</span><span class="stag">PAI</span>
+                </div>
+            </div>
+            <div class="card skill-card">
+                <div class="skill-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+                </div>
+                <h4 class="skill-name">机器学习</h4>
+                <div class="tag-cloud">
+                    <span class="stag">Scikit-learn</span><span class="stag">监督学习</span><span class="stag">特征工程</span><span class="stag">模型评估</span><span class="stag">正则化</span><span class="stag">AUC-ROC</span>
+                </div>
+            </div>
+            <div class="card skill-card">
+                <div class="skill-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2"/><circle cx="8" cy="8" r="2"/><path d="M14 8l6 6M8 14l-2 2"/></svg>
+                </div>
+                <h4 class="skill-name">深度学习 &amp; 视觉</h4>
+                <div class="tag-cloud">
+                    <span class="stag">PyTorch</span><span class="stag">CNN</span><span class="stag">OpenCV</span><span class="stag">图像分割</span><span class="stag">SAM</span>
+                </div>
+            </div>
+            <div class="card skill-card">
+                <div class="skill-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <h4 class="skill-name">医学工程 &amp; 数字孪生</h4>
+                <div class="tag-cloud">
+                    <span class="stag">医学图像处理</span><span class="stag">信号分析</span><span class="stag">可解释AI</span><span class="stag">SHAP</span><span class="stag">数字孪生</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang-bar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            英语能力：CET-6 532 · IELTS 7.0 · 可流畅阅读英文文献
+        </div>
+    </section>
+
+    <!-- ============ MATERIALS ============ -->
+    <section class="section section-fade" id="materials">
+        <div class="section-label">Materials</div>
+        <h2 class="section-heading">辅助资料</h2>
+        <p class="section-desc">以下是我的实习证明与论文证明等支撑材料，按类别整理如下。</p>
+
+        <div class="materials-grid">
+            <div class="mat-cat">
+                <h3 class="mat-cat-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="12" y2="16"/></svg>
+                    实习证明
+                </h3>
+                <a href="assets/materials/Internship Certificate_Geely.pdf" class="mat-file" target="_blank">
+                    <span class="mat-file-name">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        Internship Certificate — Geely
+                    </span>
+                    <span class="mat-file-type">PDF</span>
+                </a>
+                <a href="assets/materials/Internship Certificate_Austar.pdf" class="mat-file" target="_blank">
+                    <span class="mat-file-name">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        Internship Certificate — Austar
+                    </span>
+                    <span class="mat-file-type">PDF</span>
+                </a>
+            </div>
+            <div class="mat-cat">
+                <h3 class="mat-cat-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    论文证明
+                </h3>
+                <a href="assets/materials/Paper_certificate.pdf" class="mat-file" target="_blank">
+                    <span class="mat-file-name">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        Paper Certificate
+                    </span>
+                    <span class="mat-file-type">PDF</span>
+                </a>
+                <a href="assets/materials/Paper_To_Be_Published.pdf" class="mat-file" target="_blank">
+                    <span class="mat-file-name">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        Paper — To Be Published
+                    </span>
+                    <span class="mat-file-type">PDF</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-contact">
+                <a href="mailto:202300172014@mail.sdu.edu.cn" class="footer-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    202300172014@mail.sdu.edu.cn
+                </a>
+                <a href="tel:+8619962693119" class="footer-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    +86 199-6269-3119
+                </a>
+            </div>
+            <p class="footer-copy">© 2026 Guangrui Xu. Crafted with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
